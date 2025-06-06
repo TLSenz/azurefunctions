@@ -1,6 +1,10 @@
 const { app } = require('@azure/functions');
 
 
+
+
+
+
 app.http('authentication', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',

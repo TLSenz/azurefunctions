@@ -26,8 +26,8 @@ app.http('httpTrigger2', {
 
 
 const cosmosInput = input.cosmosDB({
-    databaseName: 'DemoDatabase',
-    containerName: 'Items',
+    databaseName: 'dataApple',
+    containerName: 'datacontainer',
     connection: 'CosmosDB',
     sqlQuery: "select * from c"
 });
